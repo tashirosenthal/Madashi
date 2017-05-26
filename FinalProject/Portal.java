@@ -2,6 +2,14 @@ import java.util.Scanner;
 import java.util.Arraylist;
 public class Portal
 {
+	private String Copynums, Pinfo, Mutations;
+	
+	public Portal()
+	{
+		Copynums = c;
+		Pinfo = p;
+		Mutations = m;
+	}
 	public static void main(String[]args)
 	{
 		Scanner kb = new Scanner(System.in);

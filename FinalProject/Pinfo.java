@@ -16,7 +16,7 @@ public class Pinfo implements Portal
 	public static void getCancerTypes()
 	{
 		Desktop d = Desktop.getDesktop();
-		d.browse(new URI("http://bing.com"));
+		d.browse(new URI("http://www.cbioportal.org/webservice.do?cmd=getGeneticProfiles&cancer_study_id=ball_tcga"));
 		
 	}
 }
