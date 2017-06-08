@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class quiz
+public class donttouch
 {
 	public static void main(String[]args)
 	{
@@ -151,85 +151,9 @@ public class quiz
 								else if(b == 5)
 								{
 									System.out.println("Okay Please add another description to your pain." +
-									"\n 1. Limping or swelling." +
-									"\n 2. Increased pain at night, swelling or redness at the sight." );
-									int m = kb.nextInt();
-									if(m == 1)
-									{
-										System.out.println("You most likely have Osteosarcoma, a cancer of the bones. Here is a link to more information regarding the disease.");
-									}
-									else 
-									{
-										System.out.println("You most likely have Chondrosarcoma, a cancer of the bones. Here is a link to more information regarding the disease.");
-									}
-								}
-								else if(b == 6)
-								{
-									System.out.println("Okay Please add another description to your pain." +
-									"\n 1. Skin appearing red scaly or thickened." +
-									"\n 2. Swollen lymph nodes." );
-									int n = kb.nextInt();
-									if(n == 1)
-									{
-										System.out.println("You most likely have Breast invasive carcinoma, a cancer of the female breasts. Here is a link to more information regarding the disease.");
-									}
-									else 
-									{
-										System.out.println("You most likely have Breast Cancer, a cancer of the female breasts. Here is a link to more information regarding the disease.");
-									}
-								}
-								else if(b == 7)
-								{
-									System.out.println("Okay Please add another description to your pain." +
-									"\n 1. Fatigue nasuea and weightloss." +
-									"\n 2. Growth in abdominal girth, or a new abdominal mass.");
-									int n = kb.nextInt();
-									if(n == 1)
-									{
-										System.out.println("You most likely have Cervical Cancer, a cancer of the female cervix. Here is a link to more information regarding the disease.");
-									}
-									else
-									{
-										System.out.println("You most likely have Ovarian Serous cystadenocarcinoma, a form of ovarian cancer. Here is a link to more information regarding the disease.");
-									}
-								}
-								else if(b == 8)
-								{
-									System.out.println("Okay Please add another description to your pain." +
-									"\n 1. Swelling of the lymph nodes or abdominal lumps." +
-									"\n 2. Excessive bleeding and brusing.");
-									int o = kb.nextInt();
-									if(o == 1)
-									{
-										System.out.println("Okay last question which of these symptoms do you most identify with?" +
-										"\n 1. Feeling full, fever." +
-										"\n 2. Fatigue." );
-										int p = kb.nextInt();
-										if(p == 1)
-										{
-											System.out.println("You most likely have Adrenocortical Carcinoma, a cancer in the adrenal glands. Here is a link to more information regarding the disease.");
-										}
-										else
-										{
-											System.out.println("You most likely have Lymphocytic leukemia, a form leukemia. Here is a link to more information regarding the disease.");
-										}
-									}
-									else if(o == 2)
-									{
-										System.out.println("Okay one last question, which of these symptoms do you most identify with" +
-										"\n 1. Pallor or paleness"+
-										"\n 2. Shortness of breath while excersing");
-										int p = kb.nextInt();
-										if(p == 1)
-										{
-											System.out.println("You most likely have Acute Myeloid Leukemia, a form leukemia. Here is a link to more information regarding the disease.");
-										}
-										else 
-										{
-											System.out.println("You most likely have Myelodyplasia. Here is a link to more information regarding the disease.");
-										}
-					
-									}
+									"\n 1. Vision problems or seeing double." +
+									"\n 2. Tilting the head to the side and poor motor skills." );
+									int l = kb.nextInt();
 								}
 								
 							}	
